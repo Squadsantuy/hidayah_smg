@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://islamiah.fakta.blue/sitemap.xml
+Sitemap: https://hidayah.sambong.web.id/sitemap.xml
