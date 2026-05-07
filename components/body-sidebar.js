@@ -127,7 +127,7 @@ body_sidebar.insertAdjacentHTML('beforeend', `
             <li class="nav-item">
               <a class="nav-link" href="../pages/info.html">
                 <i class="icon">
-                  <img class="icon-20" src="../assets/icon/sidebar/info.png" style="opacity: 70%" />
+                  <img class="icon-20" src="../assets/icon/sidebar/tentang.png" style="opacity: 70%" />
                 </i>
                 <span class="item-name">INFO</span>
               </a>
