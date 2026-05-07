@@ -13,19 +13,6 @@
     <link rel="stylesheet" href="../assets/node_modules/sweetalert2/dist/sweetalert2.min.css">
     <script src="../assets/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
     <script src="./02-connection.js"></script>
-    <script type="module">
-        import { Geolocation } from '@capacitor/geolocation';
-        const requestPermission = async () => {
-            const permission = await Geolocation.requestPermissions();
-            console.log(permission);
-        };
-        const getCurrentPosition = async () => {
-            const coordinates = await Geolocation.getCurrentPosition();
-            console.log('Current position:', coordinates);
-        };
-        requestPermission();
-        getCurrentPosition();
-    </script>
     <script defer src="../assets/api/cdn.min.js"></script>
 <script 
     async 
