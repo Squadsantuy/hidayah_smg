@@ -4,13 +4,13 @@ body_footer.insertAdjacentHTML('afterbegin', `
         <ul class="left-panel list-inline mb-0 p-0">
           <li class="list-inline-item">
             <img src="../assets/logo altie putih.png" height="20px" alt="" />
-            <a href="https://fakta.blue/">FAKTA.BLUE</a>
+            <a href="https://hidayah.sambong.web.id/">HIDAYAH</a>
           </li>
         </ul>
         <div class="right-panel">
           Copyright ©
           ${new Date().getFullYear()}
-          ISLAMIAH. by <a href="./dashboard.html">Fakta.blue</a>.
+          . by <a href="./dashboard.html">sambong.web.id</a>.
         </div>
       </div>
     `);
