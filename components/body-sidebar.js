@@ -10,7 +10,7 @@ body_sidebar.insertAdjacentHTML('beforeend', `
             <img src="../assets/logo.png" height="40px" alt="" />
           </div>
         </div>
-        <h5 class="logo-title">ISLAMIAH</h5>
+        <h5 class="logo-title">HIDAYAH-SAMBONG</h5>
       </div>
       <div class="sidebar-toggle" data-toggle="sidebar" data-active="true">
         <i class="icon">
@@ -122,6 +122,14 @@ body_sidebar.insertAdjacentHTML('beforeend', `
                   <img class="icon-20" src="../assets/icon/sidebar/tentang.png" style="opacity: 70%" />
                 </i>
                 <span class="item-name">Tentang Kami</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/info.html">
+                <i class="icon">
+                  <img class="icon-20" src="../assets/icon/sidebar/info.png" style="opacity: 70%" />
+                </i>
+                <span class="item-name">INFO</span>
               </a>
             </li>
           </ul>
