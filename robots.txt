@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://islamiah.fakta.blue/sitemap.xml
