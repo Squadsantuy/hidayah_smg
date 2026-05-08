@@ -1,0 +1,16 @@
+{
+  "name": "HIDAYAH-SAMBONG",
+  "short_name": "Hidayah",
+  "description": "Al-Qur'an Online dan Dzikir App",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f8f3e6",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgybkZIl1TIjNXOLCEjmHkAD3UlbYLbkWqCIw0CT94u25PT9CfJrTgLMgG3l4ySa00bbYRtl_iSOntWj6mreBKwAkd-Sx8mqCv0I33il83nsuIwTO56XgIwElSiZh0ZhkOob64JvExLH5M89g8QCqxOH4yoZBf5vZdq0IDXOKnH6m0R8pSXnk6hD24DOqa8/s320/logo.png",
+      "sizes": "320x320",
+      "type": "image/png"
+    }
+  ]
+}
