@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
-
+User-agent: facebookexternalhit
+Allow: /
 Sitemap: https://hidayah.sambong.web.id/sitemap.xml
