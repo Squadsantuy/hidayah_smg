@@ -1,0 +1,52 @@
+/* Update pada Header Area */
+.pr-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ubah ke center agar seimbang antara kiri dan kanan */
+  margin-bottom: 18px;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  padding-bottom: 12px;
+}
+
+/* Memastikan area info tidak memakan semua tempat */
+.pr-info { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 4px; 
+  flex: 1; /* Memberikan ruang fleksibel */
+}
+
+/* Perbaikan Countdown Area agar tidak sempit */
+.pr-countdown-box { 
+  text-align: right; 
+  padding-left: 10px;
+  flex-shrink: 0; /* Mencegah countdown mengecil */
+}
+
+.pr-next-label { 
+  font-size: 0.75rem; /* Sedikit diperbesar agar terbaca */
+  opacity: 0.85; 
+  display: block; 
+  margin-bottom: 2px;
+  white-space: nowrap; /* Mencegah teks turun ke bawah */
+}
+
+.pr-timer { 
+  font-size: 1.4rem; /* Ukuran lebih tegas */
+  font-weight: 700; 
+  line-height: 1; 
+  letter-spacing: 0.5px;
+  font-variant-numeric: tabular-nums; /* Agar angka tidak goyang saat berganti */
+}
+
+/* Penyesuaian di Media Query (Mobile) */
+@media (max-width: 480px) {
+  .pr-banner { padding: 18px 15px; margin-bottom: 35px; }
+  .pr-date-wrapper { 
+    font-size: 1.1rem; /* Memperbesar teks tanggal utama */
+    white-space: normal; /* Biarkan membungkus jika layar sangat kecil */
+  }
+  .pr-greg { font-size: 0.85rem; }
+  .pr-timer { font-size: 1.5rem; } /* Ukuran timer lebih menonjol di HP */
+  .pr-next-label { font-size: 0.7rem; }
+}
