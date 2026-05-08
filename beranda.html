@@ -27,6 +27,16 @@
    <link rel="stylesheet" href="../assets/node_modules/sweetalert2/dist/sweetalert2.min.css">
    <script src="../assets/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
    <script defer src="../assets/api/cdn.min.js"></script>
+   <link rel='manifest' href='https://url-anda.com/manifest.json'/>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('https://url-anda.com/sw.js')
+        .then(reg => console.log('SW Registered!', reg))
+        .catch(err => console.error('SW Registration Failed!', err));
+    });
+  }
+</script>
 <script 
     async 
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7183187126446600" 
