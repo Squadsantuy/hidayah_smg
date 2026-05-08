@@ -50,7 +50,7 @@
 .pr-greg { font-size: inherit; font-weight: inherit; opacity: 1; }
 
 /* Countdown Area */
-.pr-countdown-box { text-align: right; min-width: 100px; }
+.pr-countdown-box { text-align: left; min-width: 100px; }
 .pr-next-label { font-size: 0.7rem; opacity: 0.75; display: block; margin-bottom: 2px; }
 .pr-timer { 
   font-size: 1.0rem; 
