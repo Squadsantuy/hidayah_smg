@@ -1,5 +1,5 @@
-// Konfigurasi Default (Jika GPS mati)
-const defaultLoc = { city: "Jakarta", lat: -6.2088, lon: 106.8456 };
+// Konfigurasi Default (Jika GPS mati) - Diatur ke Kabupaten Tuban
+const defaultLoc = { city: "TUBAN", lat: -6.8944, lon: 112.0606 };
 
 async function initPrayerWidget() {
   if (navigator.geolocation) {
